@@ -1,12 +1,15 @@
 package com.example.hexagonalarchitecture.application.domain;
 
 import com.example.hexagonalarchitecture.application.domain.valueobjects.Name;
-import lombok.Data;
+import lombok.*;
 
 import java.util.List;
 import java.util.UUID;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Author {
 
     private UUID id;
